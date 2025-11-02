@@ -3,65 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Martin Oteba - Personal Website</title>
+    <title>My Personal Website</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Martin Oteba</h1>
-            <p>Bachelor of Library and Information Science Student - Makerere University</p>
-            <nav>
-                <ul>
-                    <li><a href="#schools">Schools</a></li>
-                    <li><a href="#hobbies">Hobbies</a></li>
-                    <li><a href="#experience">Work Experience</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+   
 
-    <main class="container">
-        <section class="intro">
-            <div class="profile-photo">
-                <img src="your-photo.jpg" alt="Martin Oteba">
+    <main>
+        <!-- Personal Information Section -->
+        <section id="personal" class="personal-info">
+            <div class="photo-container">
+                <img src="thepic.jpg" alt="Your Photo">
+                <p style="text-align: center; margin-top: 0.5rem;">Your Photo<br>(Passport/Data)</p>
             </div>
-            <div class="intro-text">
-                <h2>About Me</h2>
-                <p>Hello! I’m <strong>Martin Oteba</strong>, a passionate and creative student pursuing a Bachelor of Library and Information Science at Makerere University. 
-                I’m interested in technology, digital management, and web design.</p>
+            <div class="info-text">
+                <h1>MUYINGO DERRICK:BLIS Student at COCIS</h1>
+                <div class="info-tabs">
+                    <span><a href="#schools">Schools</a></span>
+                    <span><a href="#hobbies">Hobbies</a></span>
+                    <span><a href="#work">Work Experience</a></span>
+                </div>
             </div>
         </section>
 
-        <section id="schools">
+        <!-- Schools Attended Section -->
+        <section id="schools" class="schools-section">
             <h2>Schools Attended</h2>
-            <ul>
-                <li>Kamokoli Primary School</li>
-                <li>Ndejje Secondary School</li>
-                <li>MACOS</li>
-                <li>Mengo Senior School</li>
-                <li>Makerere University</li>
-            </ul>
+            <div class="schools-grid">
+                <div class="school-card">
+                    <div class="name">Kitooro Hill View P/S</div>
+                </div>
+                <div class="school-card">
+                    <div class="name">Blessed Sacrament SS Kimaanya</div>
+                </div>
+                <div class="school-card">
+                    <div class="name">Center College</div>
+                </div>
+                
+                <div class="school-card">
+                    <div class="name">Makerere University</div>
+                </div>
+            </div>
         </section>
 
-        <section id="hobbies">
+        <!-- Hobbies Section -->
+        <section id="hobbies" class="hobbies-section">
             <h2>Hobbies</h2>
-            <ul>
-                <li>Web Design and Coding</li>
-                <li>Music and Singing</li>
-                <li>Reading and Research</li>
-                <li>Community Work</li>
-            </ul>
+            <div class="hobbies-container">
+                <ul>
+                    <li>Reading</li>
+                    <li>Coding</li>
+                    <li>Sports</li>
+                    <li>Music</li>
+                    <li>Traveling</li>
+                </ul>
+            </div>
         </section>
 
-        <section id="experience">
+        <!-- Work Experience Section -->
+        <section id="work" class="work-section">
             <h2>Work Experience</h2>
-            <p>I worked as an ICT intern, where I assisted in managing data, troubleshooting network issues, and supporting digital library systems.</p>
+            <div class="work-container">
+                <div class="work-item">
+                    <h3>Administrative Assistant Intern</h3>
+                </div>
+                <div class="work-item">
+                    <h3>Customer Service Representative</h3>
+                </div>
+            </div>
         </section>
     </main>
-
-    <footer>
-        <p>© 2025 Martin Oteba | Web Document Management (BLS 3122)</p>
-    </footer>
 </body>
 </html>
